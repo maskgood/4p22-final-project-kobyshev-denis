@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, Link } from 'react-router-dom'
+import { Indexpage } from './pages/Indexpage';
+import { Aboutpage } from './pages/Aboutpage';
+import { Contactspage } from './pages/Contactspage';
+import { Lkpage } from './pages/Lkpage';
+import { Basket } from "./pages/Basket";
+import { Registration } from "./pages/Registration";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+
+class App extends React.Component {
+
+	render() {
+
+		return (
+			<div className="wrapper" >
+				<Routes>
+
+					<Route path="/" element={<Indexpage />} />
+					<Route path="/contacts" element={<Contactspage />} />
+					<Route path="/lk" element={<Lkpage />} />
+					<Route path="/registration" element={<Registration />} />
+					<Route path="/basket" element={<Basket />} />
+
+				</Routes>
+			</div >
+		);
+	}
+
+
 }
-
 export default App;
