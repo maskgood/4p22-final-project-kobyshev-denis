@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/4p22-final-project-kobyshev-denis/static/css/main.0605ded6.css",
-    "main.js": "/4p22-final-project-kobyshev-denis/static/js/main.7eba8502.js",
+    "main.js": "/4p22-final-project-kobyshev-denis/static/js/main.0e2f60b3.js",
     "static/media/shop-logo.jpg": "/4p22-final-project-kobyshev-denis/static/media/shop-logo.98f877518cde0396bcb1.jpg",
     "index.html": "/4p22-final-project-kobyshev-denis/index.html",
     "main.0605ded6.css.map": "/4p22-final-project-kobyshev-denis/static/css/main.0605ded6.css.map",
-    "main.7eba8502.js.map": "/4p22-final-project-kobyshev-denis/static/js/main.7eba8502.js.map"
+    "main.0e2f60b3.js.map": "/4p22-final-project-kobyshev-denis/static/js/main.0e2f60b3.js.map"
   },
   "entrypoints": [
     "static/css/main.0605ded6.css",
-    "static/js/main.7eba8502.js"
+    "static/js/main.0e2f60b3.js"
   ]
 }
